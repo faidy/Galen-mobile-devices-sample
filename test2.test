@@ -1,0 +1,4 @@
+
+Home page in selenium grid 
+  selenium grid http://127.0.0.1:8001/wd/hub --dc.browserName Chrome --dc.platformName Android --dc.deviceName lg --dc.bundleId com.android.chrome --dc.udid 078e8ff458eb52ed --page http://galenframework.com
+        check ./specs/homepage.spec --include mobile

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+timeStamp=$(date '+%Y_%m_%d_%H_%M_%S');
+
+if [ ! -d "./reports/${timeStamp}" ]; then
+mkdir "./reports/${timeStamp}";
+fi
+
+galen test test1.test --htmlreport ./reports/${timeStamp}
