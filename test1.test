@@ -1,6 +1,6 @@
 @@ Parameterized
     | deviceName   | deviceType | gridArgs | 
-    | Lg g2        | mobile     | http://127.0.0.1:8001/wd/hub --dc.browserName Chrome --dc.platformName Android --dc.deviceName LG --dc.bundleId com.android.chrome --dc.udid 078e8ff458eb52ed | 
+    | Lg g2        | mobile     | http://127.0.0.1:8001/wd/hub --dc.browserName Chrome --dc.platformName Android --dc.deviceName LG --dc.bundleId com.android.chrome --dc.udid fakef35db52ed | 
     | iPhone       | mobile     | http://127.0.0.1:8002/wd/hub --dc.browserName Safari --dc.platformName iOS --dc.deviceName "iPhone 5" --dc.platformVersion 8.3 | 
 
 
